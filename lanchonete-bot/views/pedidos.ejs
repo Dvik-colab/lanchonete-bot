@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pedidos</title>
+</head>
+<body>
+    <h1>Pedidos</h1>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Usuário</th>
+            <th>Itens</th>
+            <th>Total</th>
+            <th>Endereço</th>
+            <th>Data/Hora</th>
+        </tr>
+        <% pedidos.forEach(pedido => { %>
+        <tr>
+            <td><%= pedido.id %></td>
+            <td><%= pedido.usuario %></td>
+            <td><%= pedido.itens %></td>
+            <td>R$ <%= pedido.total.toFixed(2) %></td>
+            <td><%= pedido.endereco %></td>
+            <td><%= pedido.data_hora %></td>
+        </tr>
+        <% }) %>
+    </table>
+</body>
+</html>
