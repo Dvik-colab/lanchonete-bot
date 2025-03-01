@@ -1,6 +1,1 @@
-node_modules/
-.wwebjs_auth/
-driver/
-.env
-*.log
-.DS_Store
+
