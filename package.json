@@ -5,6 +5,7 @@
     "main": "src/bot.js",
     "scripts": {
       "start": "node src/bot.js",
+      "dev": "nodemon src/bot.js"
       "dashboard": "node src/dashboard.js"
     },
     "dependencies": {
