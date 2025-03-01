@@ -1,7 +1,7 @@
 {
-    "name": "lanchonete-bot",
+    "name":"lanchonete-bot",
     "version": "1.0.0",
-    "description": "Bot de WhatsApp para lanchonete",
+    "description": "Una aplicación para gestionar pedidos de una lanchonete.",
     "main": "src/bot.js",
     "scripts": {
       "start": "node src/bot.js",
