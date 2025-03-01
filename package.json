@@ -1,21 +1,24 @@
 {
-    "name":"lanchonete-bot",
+    "name": "lanchonete-bot",
     "version": "1.0.0",
-    "description": "Una aplicación para gestionar pedidos de una lanchonete.",
+    "description": "Bot de WhatsApp para lanchonete",
     "main": "src/bot.js",
     "scripts": {
-      "start": "node src/bot.js",
-      "dev": "nodemon src/bot.js"
-      "dashboard": "node src/dashboard.js"
+        "start": "nodemon src/bot.js",
+        "dashboard": "nodemon src/dashboard.js"
     },
     "dependencies": {
-      "nodemon": "^3.0.1",
-      "axios": "^1.4.0",
-      "ejs": "^3.1.9",
-      "express": "^4.18.2",
-      "jsonwebtoken": "^9.0.2",
-      "mysql2": "^3.6.1",
-      "string-similarity": "^5.0.1",
-      "whatsapp-web.js": "^1.23.0"
+        "autoprefixer": "^10.4.20",
+        "axios": "^1.4.0",
+        "ejs": "^3.1.9",
+        "express": "^4.18.2",
+        "framework7": "^8.3.4",
+        "jsonwebtoken": "^9.0.2",
+        "mysql2": "^3.6.1",
+        "postcss": "^8.5.3",
+        "qrcode-terminal": "^0.12.0",
+        "string-similarity": "^4.0.4",
+        "tailwindcss": "^4.0.9",
+        "whatsapp-web.js": "^1.23.0"
     }
-  }
+}
